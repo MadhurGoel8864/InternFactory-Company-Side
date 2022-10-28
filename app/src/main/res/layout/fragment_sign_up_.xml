@@ -108,7 +108,7 @@
         android:id="@+id/sign_up_btn"
         android:textColor="@color/white"
         android:layout_width="330dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:text="Sign Up"
         android:textStyle="bold"
         android:textAllCaps="false"
@@ -142,11 +142,10 @@
             style="?android:attr/borderlessButtonStyle"
             android:onClick="logInFrag"
             android:text="Login"
-            android:textSize="22sp"
+            android:textSize="18sp"
             android:textColor="#212427"
             android:textAllCaps="false"
             />
-
     </LinearLayout>
 
     <LinearLayout

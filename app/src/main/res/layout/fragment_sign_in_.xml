@@ -100,7 +100,7 @@
     <Button
         android:id="@+id/login_btn"
         android:layout_width="330dp"
-        android:layout_height="50dp"
+        android:layout_height="60dp"
         android:text="LOGIN"
         android:textColor="@color/white"
         android:enabled="false"
