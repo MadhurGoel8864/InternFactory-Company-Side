@@ -1,4 +1,4 @@
-package com.example.internfactory
+package com.example.internfactoryCompany
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

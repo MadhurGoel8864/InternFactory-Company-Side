@@ -1,4 +1,4 @@
-package com.example.internfactory
+package com.example.internfactoryCompany
 
 import android.os.Bundle
 import android.text.Editable
