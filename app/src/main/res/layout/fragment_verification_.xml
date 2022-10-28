@@ -65,8 +65,10 @@
         android:layout_height="60dp"
         android:text="Continue"
         android:enabled="false"
-        android:background="@drawable/custom_login_btn"
+        android:backgroundTint="@color/button_back_color"
         android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/otp_input" />

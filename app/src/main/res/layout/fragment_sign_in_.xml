@@ -38,7 +38,6 @@
         android:layout_height="60dp"
         android:layout_marginTop="25dp"
         android:hint="Company Email ID"
-
         app:startIconTint="@color/black"
         app:boxStrokeWidth="0dp"
         app:startIconDrawable="@drawable/ic_baseline_email_24"
@@ -82,7 +81,6 @@
             android:background="@drawable/custom_sing_in"
             android:inputType="textPassword"
             android:textColor="#212427"
-
             />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -104,8 +102,9 @@
         android:layout_width="330dp"
         android:layout_height="50dp"
         android:text="LOGIN"
+        android:textColor="@color/white"
         android:enabled="false"
-        android:background="@drawable/custom_login_btn"
+        android:backgroundTint="@color/button_back_color"
         android:layout_marginTop="70dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
