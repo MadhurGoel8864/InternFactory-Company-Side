@@ -68,7 +68,6 @@
         app:passwordToggleEnabled="true"
         app:passwordToggleTint="#212427"
         app:startIconTint="@color/black"
-
         app:layout_constraintTop_toBottomOf="@+id/email_box">
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password_form_inp"
@@ -138,10 +137,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/login_btn"
             android:padding="0dp"
-            style="?android:attr/borderlessButtonStyle"
             android:textStyle="bold"
+            style="?android:attr/borderlessButtonStyle"
             android:onClick="logInFrag"
             android:text="Login"
+            android:textSize="22sp"
             android:textColor="#212427"
             android:textAllCaps="false"
             />
