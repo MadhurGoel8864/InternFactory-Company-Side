@@ -9,6 +9,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 
 class Verification_Fragment : Fragment() {
 private lateinit var otp_input : EditText
@@ -35,7 +36,6 @@ private lateinit var otp_btn : Button
                     (otp_input.text?.isNotEmpty() == true)
             }
         })
-
 
 
     }

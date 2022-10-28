@@ -8,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
+import android.widget.Toast
 import com.google.android.material.textfield.TextInputEditText
 
 class SignUp_Fragment : Fragment() {
@@ -109,5 +110,11 @@ class SignUp_Fragment : Fragment() {
                     android.util.Patterns.EMAIL_ADDRESS.matcher(email.text.toString()).matches() and (password.text?.isNotEmpty() == true) and (conf_password.text?.isNotEmpty() == true)
             }
         })
+
+        button.setOnClickListener(){
+            if(password.text.toString() != conf_password.text.toString()) {
+                Toast.makeText(context, "Password and Conform Password must be same", Toast.LENGTH_SHORT).show()
+            }
+        }
     }
 }
