@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.internfactory'
+    namespace 'com.example.internfactoryC'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.internfactory"
+        applicationId "com.example.internfactoryC"
         minSdk 21
         targetSdk 32
         versionCode 1
