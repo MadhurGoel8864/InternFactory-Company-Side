@@ -1,4 +1,4 @@
-    package com.example.internfactory
+    package com.example.internfactoryC
 
 import android.app.Activity
 import android.content.Intent
