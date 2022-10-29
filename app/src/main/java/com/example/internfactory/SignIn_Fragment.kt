@@ -3,6 +3,7 @@ package com.example.internfactoryC
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.util.Log
 import android.util.Patterns
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -12,6 +13,7 @@ import android.widget.Button
 import androidx.core.widget.addTextChangedListener
 import com.google.android.material.textfield.TextInputEditText
 import com.google.android.material.textfield.TextInputLayout
+import kotlin.math.log
 
 class SignIn_Fragment : Fragment() {
     private lateinit var password_text : TextInputEditText
@@ -45,9 +47,11 @@ class SignIn_Fragment : Fragment() {
     private fun validPass(): String? {
         val pass_txt = password_text.text.toString()
         if(pass_txt.length<8){
+            Log.d("madhur","hello world")
             return "Minimum 8 characters Required"
         }
         if(!pass_txt.matches(".*[A-Z]*.".toRegex())){
+            Log.d(   "madh","uppercase")
             return "At least 1 UpperCase Alphabet Required"
         }
         if(!pass_txt.matches(".*[a-z]*.".toRegex())){
