@@ -6,12 +6,8 @@ import android.view.View
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
-
-
 class connecting : AppCompatActivity() {
-
     var count=1;
-
     private fun replaceFrag(fragment : Fragment,name: String){
         val fm : FragmentManager =supportFragmentManager
         val ft : FragmentTransaction = fm.beginTransaction()

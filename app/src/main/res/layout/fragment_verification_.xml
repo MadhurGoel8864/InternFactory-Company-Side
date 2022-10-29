@@ -87,6 +87,8 @@
                 android:id="@+id/otp_input"
                 android:lines="1"
                 android:maxLength="6"
+                android:textCursorDrawable="@color/black"
+
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:inputType="number"
